@@ -21,7 +21,7 @@ void main(int) {
     scanf("%s %d %f", Name[i], &Quantity[i], &UnitPrice[i]);
     NumberOfItems = i;
 }
-TotalAmount = 0.0 ;
+    TotalAmount = 0.0 ;
     for(int i=0;i<NumberOfItems;i++) {
     TotalPrice[i] = Quantity[i]*UnitPrice[i];
     TotalAmount += TotalPrice[i];
